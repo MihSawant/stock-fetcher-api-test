@@ -32,3 +32,16 @@ __*It took around 3.8 seconds*__
 
 __In test 2, I have deleted the already created files and re run with small change in java file,
 changed the stream from sync to async and parallel__
+
+## Now Final test, just ran the code once again to see any difference:
+The difference was not that much, but i just ran the code once again as it is
+*The Result:*
+
+*Java:*
+
+![final java test](./images/Screenshot%202023-01-31%20at%2011.00.44%20PM.png)
+
+*Python:*
+![final python test](./images/Screenshot%202023-01-31%20at%2010.59.21%20PM.png)
+
+__Now we can see the real difference: Java - 3.7 seconds, Python - 4.5 seconds__
