@@ -9,4 +9,4 @@ for i in r.json():
     f.write(json.dumps(i))
 f.close()
 end = time.time()
-print(f"Finished Task: {end - begin}")
+print(f"Finished Task: {end - begin}s")

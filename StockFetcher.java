@@ -25,9 +25,9 @@ public class StockFetcher {
         var client = HttpClient.newHttpClient();
 
          client.send(request, HttpResponse.BodyHandlers.ofString())
-                .body().lines().parallel().forEach(line -> writeFile(writer, line));
+                .body().lines().forEach(line -> writeFile(writer, line));
 
-        System.out.printf("Finished Task: %d%n", (System.currentTimeMillis() - time));
+        System.out.printf("Finished Task: %fs%n", (System.currentTimeMillis() - time) / 1000.00);
         
 
 
